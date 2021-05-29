@@ -11,8 +11,26 @@ class _LoginState extends State<Login> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SafeArea(
-        child: Row(),
+      appBar: AppBar(
+        title: Center(
+          child: Text('CSC506'),
+        ),
+      ),
+      body: Center(
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          mainAxisSize: MainAxisSize.max,
+          children: [
+            CircleAvatar(
+              radius: 70.0,
+              child: Icon(
+                Icons.home,
+                size: 70.0,
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
