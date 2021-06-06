@@ -1,4 +1,4 @@
-import 'package:csc506/pages/login.dart';
+import 'package:csc506/pages/signin.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -20,7 +20,7 @@ class _MyAppState extends State<MyApp> {
         canvasColor: Colors.white54,
       ),
       debugShowCheckedModeBanner: false,
-      home: Login(),
+      home: SignIn(),
     );
   }
 }

@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:frontend/signin.dart';
-import 'package:frontend/user.dart';
 import 'package:http/http.dart' as http;
+
+import 'package:csc506/pages/signin.dart';
+import 'package:csc506/pages/user.dart';
 //import 'package:google_fonts/google_fonts.dart';
 
 class SignUp extends StatefulWidget {
@@ -368,4 +369,3 @@ class _SignUpState extends State<SignUp> {
     );
   }
 }
-

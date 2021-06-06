@@ -36,7 +36,7 @@ router.post('/signup',(req,res)=>{
 })
 
 router.post('/signin',(req,res)=>{
-    User.findOne({email:req.body.email,password:req.body.password},(err,user)=>{
+    User.findOne({email:req.body.email,password:req.body.password,phone:req.body.phone,address:req.body.address},(err,user)=>{
         if(err){
             console.log(err)
             res.json(err)
