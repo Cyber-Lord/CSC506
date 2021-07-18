@@ -1,6 +1,6 @@
 # CSC506
 This project is an assignment given as part of CSC506 course works. 
-Clone the repository and open index.html in a browser. You will be taken to homepage like bbelow:
+Clone the repository and open index.html in a browser. You will be taken to homepage like below:
 <p align="center">
   <img src="https://github.com/Cyber-Lord/CSC506/blob/default/screenshots/index.png" width="800" title="hover text">
 </p>
