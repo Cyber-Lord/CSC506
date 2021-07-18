@@ -1,0 +1,5 @@
+1. Web browser(Chrome, Firefox or MS Edge)
+2. Internet access to load static files
+3. Google account(In case want to access Firebase)
+4. JS supported browser
+5. npm, Git and Firebase CLI
