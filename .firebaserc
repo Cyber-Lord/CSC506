@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "assignment-5ec85"
+    "default": "friendlychat-585b7",
+    "staging": "friendlychat-585b7"
   }
 }
